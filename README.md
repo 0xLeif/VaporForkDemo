@@ -1,3 +1,8 @@
+# Vapor Fork Demo
+
+## ForkedActor Example
+
+```swift
 import Fork
 import Vapor
 
@@ -52,3 +57,4 @@ func routes(_ app: Application) throws {
         return await forkedActor.actor.output
     }
 }
+```
